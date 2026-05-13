@@ -38,4 +38,4 @@ Python 3.12 / Flask · SQLite · React/Vite · Africa's Talking
 ## Status
 
 Active development. Codebase private pending pilot deployment.  
-[Concept Note →] (Link)
+[Concept Note →](sms_mapper_concept_note.pdf)

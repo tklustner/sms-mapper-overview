@@ -4,7 +4,7 @@ SMS field reporting pipeline: free-text SMS → structured data → live map
 
 ## Overview
 
-<img width="1200" height="599" alt="sms_mapper_gif" src="https://github.com/user-attachments/assets/21b9343e-9eba-4ad4-8264-44b7e4b787da" />
+<img width="1440" height="719" alt="v2_clipped_sms_mapper_gif" src="https://github.com/user-attachments/assets/7c281da1-12c3-4c40-be3d-a41485ece8cb" />
 
 Built for disease surveillance in low-resource settings. A community health worker
 sends a plain SMS from any basic handset; the system extracts structured signals,

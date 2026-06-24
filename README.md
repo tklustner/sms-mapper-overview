@@ -18,18 +18,17 @@ SMS → Africa's Talking gateway → ingest → parse → score → resolve → 
 
 Each stage is a discrete pipeline step with a full audit trail. Reports are 
 confidence-scored (0.0–1.0) based on location match, date extraction, and signal 
-density; low-confidence reports surface for human review.
+density. Low-confidence reports automatically surfaced for human review.
 
 ## Features
 
 - Rule-based NLP extracts case counts, symptom clusters, supply constraints, 
-  and location references — no LLM, no inference API
+  and location references– no LLM, no inference API
 - Synonym-aware parsing via coordinator-managed CSV RulePack (supports local 
   language variants)
-- Offline-resilient: relay queue survives server outages without changing CHW workflow
+- Offline-resilient relay queue survives server outages without changing CHW workflow
 - PII scrubbed before storage; data stays on local hardware or African-jurisdiction VPS
-- Event-sourced domain model with SQLite read projection; schema migrations are 
-  safe and auditable
+- Event-sourced domain model with SQLite read projection enables auditable schema migrations
 
 ## Stack
 
